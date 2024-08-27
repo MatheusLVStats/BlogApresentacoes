@@ -1,0 +1,115 @@
+---
+title: "Caso Clínico: Reanimação Neonatal"
+author: "Matheus Barros, Rafael Rodrigues, Pedro Albuquerque"
+format: 
+  revealjs:
+    theme: "white"
+    transition: "convex"
+    css: styles.css
+    slideNumber: true
+    chalkboard: true
+    bibliography: references.bib
+---
+
+## História Clínica
+
+- Maria, 36 anos, gestante na 39ª semana [@who2017].
+- Apresentou rotura prematura das membranas no termo (RPMT).
+- Pré-natal sem complicações, exceto diabetes gestacional controlada.
+- Identificada taquicardia fetal durante monitorização [@nice2017].
+- Decidiu-se por cesárea devido à suspeita de sofrimento fetal.
+
+---
+
+## Parto
+
+- RN com 3.200 g.
+- Não respirava ao nascimento e apresentava tônus muscular flácido.
+- Cordão umbilical clampeado imediatamente [@who2017].
+- RN conduzido à mesa de reanimação.
+
+---
+
+## Reanimação
+
+- Passos iniciais:
+  - Prover calor [@who2017]
+  - Secar o bebê
+  - Posicionar a cabeça em leve extensão
+  - Aspirar vias aéreas superiores
+- RN continuou sem movimentos respiratórios e FC < 100 bpm.
+- Iniciou-se Ventilação com Pressão Positiva (VPP) com ar ambiente [@nice2017].
+
+---
+
+## Após 30 Segundos de VPP
+
+- FC permaneceu < 100 bpm, sem melhora na respiração.
+- Revisão da técnica de ventilação [@who2017].
+- Procedeu-se à intubação traqueal.
+- Ventilação eficaz resultou em aumento progressivo da FC.
+- RN estabilizado [@nice2017].
+
+---
+
+## Após a Reanimação
+
+- Apgar calculado no 1º e 5º minutos: 4 e 7, respectivamente.
+- RN monitorado na UTIN para observação contínua e cuidados adicionais.
+
+![](apgar.png)
+
+---
+
+## Perguntas
+
+1. <details>
+    <summary>Quais foram os principais fatores de risco identificados no caso?</summary>
+    - Diabetes gestacional, RPMT, e taquicardia fetal.
+   </details>
+
+2. <details>
+    <summary>Quais foram os passos iniciais da reanimação neonatal realizados no caso?</summary>
+    - Prover calor, secar o bebê, posicionar a cabeça em leve extensão, e aspirar vias aéreas superiores.
+   </details>
+
+3. <details>
+    <summary>Qual foi a intervenção realizada após os passos iniciais, com a FC baixa?</summary>
+    - Iniciou-se a Ventilação com Pressão Positiva (VPP) com ar ambiente.
+   </details>
+
+4. <details>
+    <summary>O que foi feito quando a ventilação com máscara facial não foi suficiente?</summary>
+    - Realizada intubação traqueal para assegurar ventilação eficaz.
+   </details>
+   
+---
+
+## Fluxograma da Reanimação Neonatal
+![@who2017](reanimation.png)
+
+---
+
+## Gráfico Interativo
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(plotly)
+
+# Exemplo de dataset fictício
+dataset <- data.frame(
+  idade_gestacional = c(28, 28, 28, 28, 32, 32, 32, 32, 34, 34, 34, 34, 37, 37, 37, 37),
+  tempo_clampeamento = c(30, 60, 90, 120, 30, 60, 90, 120, 30, 60, 90, 120, 30, 60, 90, 120),
+  chance_ocorrencia_evento = c(0.25, 0.18, 0.12, 0.08, 0.23, 0.17, 0.10, 0.07, 0.21, 0.15, 0.09, 0.06, 0.20, 0.14, 0.08, 0.05)
+)
+
+# Gerando o gráfico interativo
+plot <- plot_ly(dataset, x = ~tempo_clampeamento, y = ~chance_ocorrencia_evento, color = ~factor(idade_gestacional), type = 'scatter', mode = 'lines+markers') %>%
+  layout(
+    title = "Chance de Ocorrência de Evento de Acordo com Tempo de Clampeamento e Idade Gestacional",
+    xaxis = list(title = "Tempo de Clampeamento (segundos)"),
+    yaxis = list(title = "Chance de Ocorrência de Evento (%)"),
+    legend = list(title = list(text = "Idade Gestacional (semanas)"))
+  )
+plot
+```
+

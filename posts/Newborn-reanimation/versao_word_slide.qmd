@@ -1,0 +1,119 @@
+---
+title: "Caso Clínico - Reanimação Neonatal"
+format: docx
+editor: visual
+bibliography: references.bib
+---
+
+## História Clínica
+
+- Maria, 36 anos, gestante na 39ª semana [@who2017].
+- Apresentou rotura prematura das membranas no termo (RPMT).
+- Pré-natal sem complicações, exceto diabetes gestacional controlada.
+- Identificada taquicardia fetal durante monitorização [@nice2017].
+- Decidiu-se por cesárea devido à suspeita de sofrimento fetal.
+
+---
+
+## Parto
+
+- RN com 3.200 g.
+- Não respirava ao nascimento e apresentava tônus muscular flácido.
+- Cordão umbilical clampeado imediatamente [@who2017].
+- RN conduzido à mesa de reanimação.
+
+---
+
+## Reanimação
+
+- Passos iniciais:
+  - Prover calor [@who2017]
+  - Secar o bebê
+  - Posicionar a cabeça em leve extensão
+  - Aspirar vias aéreas superiores
+- RN continuou sem movimentos respiratórios e FC < 100 bpm.
+- Iniciou-se Ventilação com Pressão Positiva (VPP) com ar ambiente [@nice2017].
+
+---
+
+## Após 30 Segundos de VPP
+
+- FC permaneceu < 100 bpm, sem melhora na respiração.
+- Revisão da técnica de ventilação [@who2017].
+- Procedeu-se à intubação traqueal.
+- Ventilação eficaz resultou em aumento progressivo da FC.
+- RN estabilizado [@nice2017].
+
+---
+
+## Após a Reanimação
+
+- Apgar calculado no 1º e 5º minutos: 4 e 7, respectivamente.
+- RN monitorado na UTIN para observação contínua e cuidados adicionais.
+
+![](apgar.png)
+
+---
+
+## Perguntas
+
+1.Quais foram os principais fatores de risco identificados no caso?
+    - Diabetes gestacional, RPMT, e taquicardia fetal.
+   
+
+2.Quais foram os passos iniciais da reanimação neonatal realizados no caso?
+    - Prover calor, secar o bebê, posicionar a cabeça em leve extensão, e aspirar vias aéreas superiores.
+   
+
+3.Qual foi a intervenção realizada após os passos iniciais, com a FC baixa?
+    - Iniciou-se a Ventilação com Pressão Positiva (VPP) com ar ambiente.
+   
+
+4.O que foi feito quando a ventilação com máscara facial não foi suficiente?
+    - Realizada intubação traqueal para assegurar ventilação eficaz.
+   
+---
+
+## Fluxograma da Reanimação Neonatal
+![@who2017](reanimation.png)
+
+---
+
+## Gráfico Interativo
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# Carregar a biblioteca ggplot2
+library(ggplot2)
+
+# Exemplo de dataset fictício
+dataset <- data.frame(
+  idade_gestacional = c(28, 28, 28, 28, 32, 32, 32, 32, 34, 34, 34, 34, 37, 37, 37, 37),
+  tempo_clampeamento = c(30, 60, 90, 120, 30, 60, 90, 120, 30, 60, 90, 120, 30, 60, 90, 120),
+  chance_ocorrencia_evento = c(0.25, 0.18, 0.12, 0.08, 0.23, 0.17, 0.10, 0.07, 0.21, 0.15, 0.09, 0.06, 0.20, 0.14, 0.08, 0.05)
+)
+
+# Criando o gráfico com ggplot2
+plot <- ggplot(dataset, aes(x = tempo_clampeamento, y = chance_ocorrencia_evento, color = factor(idade_gestacional))) +
+  geom_line() +
+  geom_point() +
+  labs(
+    title = "Chance de Ocorrência de Evento de Acordo com Tempo de Clampeamento e Idade Gestacional",
+    x = "Tempo de Clampeamento (segundos)",
+    y = "Chance de Ocorrência de Evento (%)",
+    color = "Idade Gestacional (semanas)"
+  ) +
+  theme_minimal()
+
+# Exibir o gráfico
+print(plot)
+```
+Este estudo avaliou a relação entre o tempo de clampeamento do cordão umbilical e a chance de ocorrência de eventos adversos em neonatos, considerando diferentes idades gestacionais (28, 32, 34, e 37 semanas). O gráfico revela que a chance de eventos adversos diminui progressivamente com o aumento do tempo de clampeamento, independentemente da idade gestacional.
+
+Para neonatos com 28 semanas, a chance de eventos foi de 25% com 30 segundos de clampeamento, reduzindo para 8% aos 120 segundos. De forma similar, neonatos com 37 semanas apresentaram uma redução de 20% para 5% no mesmo intervalo de tempo. A análise sugere que, embora a redução de risco seja observada em todas as idades gestacionais, neonatos mais prematuros (28 semanas) se beneficiam mais significativamente de tempos de clampeamento prolongados.
+
+Além disso, a diferença na chance de eventos entre os diferentes grupos de idade gestacional tende a se reduzir em tempos de clampeamento mais longos (90 e 120 segundos), indicando uma possível uniformização dos riscos com o prolongamento do clampeamento.
+
+Esses achados sugerem que a prática de aumentar o tempo de clampeamento pode ser benéfica, especialmente para neonatos prematuros, reduzindo significativamente o risco de eventos adversos. Recomenda-se a consideração dessa prática em ambientes clínicos e a realização de estudos adicionais para confirmar esses benefícios e avaliar os impactos a longo prazo.
+
+# Referências:

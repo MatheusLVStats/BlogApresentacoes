@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BlogApresentacoes",
+    "section": "",
+    "text": "Caso Clínico: Reanimação Neonatal\n\n\n\n\n\n\n\n\n\n\n\nMatheus Barros, Rafael Rodrigues, Pedro Albuquerque\n\n\n\n\n\n\n\n\n\n\n\n\nCaso Clínico - Reanimação Neonatal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 24, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#história-clínica",
+    "href": "posts/Newborn-reanimation/slide_trab.html#história-clínica",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "História Clínica",
+    "text": "História Clínica\n\nMaria, 36 anos, gestante na 39ª semana (Organization 2017).\nApresentou rotura prematura das membranas no termo (RPMT).\nPré-natal sem complicações, exceto diabetes gestacional controlada.\nIdentificada taquicardia fetal durante monitorização (Health and Excellence 2017).\nDecidiu-se por cesárea devido à suspeita de sofrimento fetal."
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#parto",
+    "href": "posts/Newborn-reanimation/slide_trab.html#parto",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Parto",
+    "text": "Parto\n\nRN com 3.200 g.\nNão respirava ao nascimento e apresentava tônus muscular flácido.\nCordão umbilical clampeado imediatamente (Organization 2017).\nRN conduzido à mesa de reanimação."
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#reanimação",
+    "href": "posts/Newborn-reanimation/slide_trab.html#reanimação",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Reanimação",
+    "text": "Reanimação\n\nPassos iniciais:\n\nProver calor (Organization 2017)\nSecar o bebê\nPosicionar a cabeça em leve extensão\nAspirar vias aéreas superiores\n\nRN continuou sem movimentos respiratórios e FC &lt; 100 bpm.\nIniciou-se Ventilação com Pressão Positiva (VPP) com ar ambiente (Health and Excellence 2017)."
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#após-30-segundos-de-vpp",
+    "href": "posts/Newborn-reanimation/slide_trab.html#após-30-segundos-de-vpp",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Após 30 Segundos de VPP",
+    "text": "Após 30 Segundos de VPP\n\nFC permaneceu &lt; 100 bpm, sem melhora na respiração.\nRevisão da técnica de ventilação (Organization 2017).\nProcedeu-se à intubação traqueal.\nVentilação eficaz resultou em aumento progressivo da FC.\nRN estabilizado (Health and Excellence 2017)."
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#após-a-reanimação",
+    "href": "posts/Newborn-reanimation/slide_trab.html#após-a-reanimação",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Após a Reanimação",
+    "text": "Após a Reanimação\n\nApgar calculado no 1º e 5º minutos: 4 e 7, respectivamente.\nRN monitorado na UTIN para observação contínua e cuidados adicionais."
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#perguntas",
+    "href": "posts/Newborn-reanimation/slide_trab.html#perguntas",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Perguntas",
+    "text": "Perguntas\n\n\n\nQuais foram os principais fatores de risco identificados no caso?\n\n\nDiabetes gestacional, RPMT, e taquicardia fetal.\n\n\n\n\nQuais foram os passos iniciais da reanimação neonatal realizados no caso?\n\n\nProver calor, secar o bebê, posicionar a cabeça em leve extensão, e aspirar vias aéreas superiores.\n\n\n\n\nQual foi a intervenção realizada após os passos iniciais, com a FC baixa?\n\n\nIniciou-se a Ventilação com Pressão Positiva (VPP) com ar ambiente.\n\n\n\n\nO que foi feito quando a ventilação com máscara facial não foi suficiente?\n\n\nRealizada intubação traqueal para assegurar ventilação eficaz."
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#fluxograma-da-reanimação-neonatal",
+    "href": "posts/Newborn-reanimation/slide_trab.html#fluxograma-da-reanimação-neonatal",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Fluxograma da Reanimação Neonatal",
+    "text": "Fluxograma da Reanimação Neonatal\n\nOrganization (2017)"
+  },
+  {
+    "objectID": "posts/Newborn-reanimation/slide_trab.html#gráfico-interativo",
+    "href": "posts/Newborn-reanimation/slide_trab.html#gráfico-interativo",
+    "title": "Caso Clínico: Reanimação Neonatal",
+    "section": "Gráfico Interativo",
+    "text": "Gráfico Interativo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth, National Institute for, and Care Excellence. 2017. “Intrapartum Care for Healthy Women and Babies. Clinical Guideline.” https://www.nice.org.uk/guidance/cg190.\n\n\nOrganization, World Health. 2017. “WHO Recommendations on Newborn Health: Guidelines Approved by the WHO Guidelines Review Committee.”"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  }
+]
